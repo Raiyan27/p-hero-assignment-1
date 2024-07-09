@@ -107,6 +107,7 @@ header button{
     max-width: 960px;
     margin-top: 160px;
     padding: 80px 100px;
+    margin-bottom: 80px;
 }
 .primary-header{
     color: rgb(13, 19, 33);
@@ -126,6 +127,8 @@ header button{
     text-align: center;
     opacity: 0.7;
     margin-bottom: 50px;
+    max-width: 850px;
+    margin: 0 auto;
 }
 .text-left{
     text-align: left;
@@ -151,7 +154,6 @@ header button{
     justify-content: center;
     margin: 50px 50px 50px 0px;
     padding: 50px;
-    margin-bottom: 100px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
@@ -195,4 +197,20 @@ header button{
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
+}
+.section-3{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.iframe-container{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+iframe{
+    border-radius: 16px;
+    margin: 0;
 }
