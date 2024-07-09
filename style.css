@@ -96,3 +96,103 @@ header button{
     border-radius: 10px;
     background: rgb(13, 19, 33);
 }
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    max-width: 960px;
+    margin-top: 160px;
+    padding: 80px 100px;
+}
+.primary-header{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.primary-p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+.text-left{
+    text-align: left;
+}
+.primary-sub-header{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 50px 50px 0px;
+    padding: 50px;
+    margin-bottom: 100px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.reverse {
+    flex-direction: row-reverse;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 480px;
+    height: 220px;
+    margin-right: 110px;
+    margin-left: 10px;
+}
+.section-2-img-container{
+    width: 260px;
+    height: 217px;
+}
+.sec-2-img{
+    width: 100%;
+}
+.card-btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
+    padding: 10px;
+}
+.sub-header{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
