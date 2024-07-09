@@ -141,14 +141,14 @@ header button{
     letter-spacing: 0%;
     text-align: left;
 }
-.card-container{
+.sec-2-card-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
-.card{
+.sec-2-card{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -177,7 +177,7 @@ header button{
 .sec-2-img{
     width: 100%;
 }
-.card-btn{
+.sec-2-card-btn{
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
@@ -209,8 +209,59 @@ header button{
     justify-content: center;
     align-items: center;
     padding: 32px;
+    margin-top: 60px;
 }
 iframe{
     border-radius: 16px;
     margin: 0;
+}
+.section-4{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.sec-4-card-container{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0 auto;
+}
+.sec-4-card{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 16px;
+    padding: 40px;
+    margin: 24px;
+}
+.sec-4-img-container{
+    width: 56px;
+    height: 56px;
+    padding-bottom: 10px;
+}
+.sec-4-img{
+    width: 100%;
+}
+.sec-4-btn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    background-color: transparent;
+    border: none;
+}
+.section-4 h2{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sec-4-button-container{
+    margin-top: 20px;
 }
