@@ -105,9 +105,8 @@ header button{
     align-items: center;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin: 0 auto;
+    margin: 160px auto;
     max-width: 960px;
-    margin-top: 160px;
     padding: 80px 100px;
     margin-bottom: 80px;
 }
@@ -148,13 +147,11 @@ header button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
 .sec-2-card{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px 50px 50px 0px;
     padding: 50px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
