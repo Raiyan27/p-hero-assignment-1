@@ -339,3 +339,16 @@ iframe{
     justify-content: center;
     align-items: center;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    padding: 0px 150px;
+}
+.footer-container{
+    display: flex;
+    gap: 24px;
+}
