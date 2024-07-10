@@ -35,7 +35,7 @@ header button{
     cursor: pointer; 
 }
 .section-1{
-    background-image: url('./assets/Hero-bg.png');
+    background-image: url('./assets/herobg.png');
     background-size: cover;
     width: auto;
     height: 750px;
